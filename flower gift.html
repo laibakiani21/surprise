@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>For You Love</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      background-color: #cce7f7; /* Match GIF background */
+      font-family: 'Segoe UI', sans-serif;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      flex-wrap: wrap;
+    }
+
+    .note-card {
+      background-color: #cce7f7; /* Same as background */
+      padding: 18px 20px;
+      border-radius: 12px;
+      box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+      max-width: 300px;
+      line-height: 1.6;
+      font-size: 14px;
+      margin-right: 10px;
+      border: 1px solid #aacfe4;
+    }
+
+    .note-card h1 {
+      font-size: 18px;
+      color: #d63384;
+      margin-bottom: 10px;
+      text-align: center;
+    }
+
+    .gif-container img {
+      max-width: 300px;
+      height: auto;
+      border-radius: 10px;
+    }
+
+    @media (max-width: 768px) {
+      body {
+        flex-direction: column-reverse;
+        height: auto;
+        padding: 20px;
+      }
+
+      .note-card, .gif-container img {
+        max-width: 90%;
+      }
+
+      .note-card {
+        margin: 10px 0;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Note Card with same blue background -->
+  <div class="note-card">
+    <h1>For You Love</h1>
+    Dear LOVE-Qamar,<br><br>
+    I'm sending you these flowers to brighten up your day.<br><br>
+    Just a little reminder with this note—you're always on my mind and forever in my heart.<br>
+    No matter how busy life gets, my love for you stays constant, quiet, and strong,<br>
+    like a soft whisper in the background.<br><br>
+    You mean more to me than words can say.<br>
+    LOVE YOU!<br><br>
+    — From your sweetie
+  </div>
+
+  <!-- Animated GIF fully visible -->
+  <div class="gif-container">
+    <img src="https://media.giphy.com/media/J4vwmt3RkJwmGL06U4/giphy.gif" alt="Flowers for you">
+  </div>
+
+</body>
+</html>
+
+
+
